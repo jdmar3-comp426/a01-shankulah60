@@ -2,14 +2,17 @@
 <head>
     <title>Modern Representations</title>
     <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
     <div id="toolbar">
-        <a href="./index.html">Home</a>
-        <a href="./about.html">About</a>
-        <a href="./historic.html">Historic Representations</a>
-        <a href="./modern.html">Modern Representations</a>
+        <ul>
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./about.html">About</a></li>
+            <li><a href="./historic.html">Historic Representations</a></li>
+            <li><a href="./modern.html">Modern Representations</a></li>
+        </ul>
     </div>
 
     <h1>Modern Representations of Medusa</h1>
@@ -25,10 +28,12 @@
         <br>
         <br>
     </p>
-        <figure>
-            <img src="Medusa_Percy.jpg" alt="Image of Medusa from the Percey Jackson film">
-            <figcaption><a href="http://www.californiaherps.com/films/snakefilms/PercyJackson.html">source</a></figcaption>
-        </figure>
+        <div class="media">
+            <figure>
+                <img src="Medusa_Percy.jpg" alt="Image of Medusa from the Percey Jackson film">
+                <div class="caption"><figcaption><a href="http://www.californiaherps.com/films/snakefilms/PercyJackson.html">source</a></figcaption></div>
+            </figure>
+        </div>
     <p>
         <br>
         <br>
@@ -37,15 +42,11 @@
         <br>
         <br>
     </p>
-        <div id="Music_video">
+        <div class="media">
             <iframe width="560" height="315" src="https://www.youtube.com/embed/QpKNsXqZ-08" title="YouTube video player" allowfullscreen></iframe>
         </div>
-    <p>
-        <br>
-        <br>
-    </p>
 
-    <div id="References">
+    <div class="References">
         <h3><u>References</u></h3>
         <p>Regula, deTraci. "Medusa's Curse: Greek Mythology." ThoughtCo, www/thoughtco.com/greek-mythology-medusa-1524414.</p>
     </div>
